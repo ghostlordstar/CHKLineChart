@@ -1,0 +1,16 @@
+source "https://github.com/CocoaPods/Specs.git"
+platform:ios, 9.0
+use_frameworks!
+
+workspace '../CHKLineChartKit.xcworkspace'
+project 'CHKLineChartKit-Demo.xcodeproj'
+
+target "CHKLineChartKit-Demo-Swift" do
+  pod "SnapKit", "~> 4.0.0"
+  pod "MZFormSheetPresentationController"
+  pod "SwiftyJSON"
+end
+
+target "CHKLineChartKit-Demo-ObjC" do
+  pod 'AFNetworking'
+end

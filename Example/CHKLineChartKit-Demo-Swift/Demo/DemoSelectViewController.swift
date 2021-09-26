@@ -59,7 +59,7 @@ extension DemoSelectViewController: UITableViewDelegate, UITableViewDataSource {
                 vc = storyboard.instantiateViewController(withIdentifier: className)
             } else {
                 
-                guard let nameSpage = Bundle.main.infoDictionary!["CFBundleExecutable"] as? String else {
+                guard let nameSpage = (Bundle.main.infoDictionary!["CFBundleExecutable"] as? String)?.replacingOccurrences(of: "-", with: "_") else {
                     return
                 }
                 

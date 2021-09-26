@@ -28,7 +28,8 @@ class ChartImageViewController: UIViewController {
 
     /// 拉取数据
     func fetchChartDatas(symbol: String, type: String) {
-        ChartDatasFetcher.shared.getRemoteChartData(
+        //        ChartDatasFetcher.shared.getRemoteChartData(  // 已废弃
+        ChartDatasFetcher.shared.getSinaRemoteChartData(
             symbol: symbol,
             timeType: type,
             size: 70) {

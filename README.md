@@ -1,10 +1,19 @@
 # CHKLineChart
 
+
+[![Build Status](https://app.travis-ci.com/ghostlordstar/CHKLineChart.svg?branch=swift_4.0)](https://app.travis-ci.com/ghostlordstar/CHKLineChart)
+
 ![s1.png](/screenshots/s1.png)
 ![s2.png](/screenshots/s2.png)![s3.png](/screenshots/s3.png)
 ![s4.png](/screenshots/s4.png)![s5.png](/screenshots/s5.png)
 
 > 纯Swift4.0代码编写的K线图表组件，支持：MA,EMA,KDJ,MACD,RSI等技术指标显示。集成使用简单，二次开发扩展强大。
+
+|版本号|iOS版本|Swift版本|
+|----|----|----|
+|2.3.2|iOS 9.0+|Swift 4.0|
+|2.4.0|iOS 9.0+|Swift 4.2|
+|2.5.0|iOS 9.0+|Swift 5.0+|
 
 ## Features
 
@@ -30,13 +39,13 @@
 
 You can install it with the following command:
 
-```java
+```shell
 $ gem install cocoapods
 ```
 
 To integrate Log into your Xcode project using CocoaPods, specify it in your Podfile:
 
-```java
+```ruby
 use_frameworks!
 
 pod 'CHKLineChartKit'
@@ -152,7 +161,7 @@ extension ChartCustomViewController: CHKLineChartDelegate {
 本K线图表最大的一个亮点就是提供了非常容易的指标开发入口。
 如何开发自己的指标呢？步骤如下：
 
-**1. 开发者需要实现CHChartAlgorithmProtocol。例子参考CHChartAlgorithm枚举。**
+**1. 开发者需要实现`CHChartAlgorithmProtocol`。例子参考`CHChartAlgorithm`枚举。**
 
 ```swift
 
@@ -207,7 +216,7 @@ public enum CHChartAlgorithm: CHChartAlgorithmProtocol {
 }
 ```
 
-**2. extension CHSeries，编写自己的线组。**
+**2. extension `CHSeries`，编写自己的线组。**
 
 ```swift
 
@@ -238,7 +247,7 @@ extension CHSeries {
 
 ```
 
-**3. 如果现有的线模型无法满足你，你可以新建类继承CHChartModel，重载drawSerie方法。**
+**3. 如果现有的线模型无法满足你，你可以新建类继承`CHChartModel`，重载`drawSerie`方法。**
 
 ```swift
 
@@ -271,7 +280,7 @@ extension CHChartModel {
 
 ```
 
-**4. 自定义自己的图表CHKLineChartStyle，把指标算法和线组加入。**
+**4. 自定义自己的图表`CHKLineChartStyle`，把指标算法和线组加入。**
 
 ```swift
 
@@ -308,7 +317,7 @@ extension CHChartModel {
 
 ## Custom Style（开发自定义样式）
 
-通用的方案是，扩展CHKLineChartStyle编写自己的样式。
+通用的方案是，扩展`CHKLineChartStyle`编写自己的样式。
 
 ```swift
 

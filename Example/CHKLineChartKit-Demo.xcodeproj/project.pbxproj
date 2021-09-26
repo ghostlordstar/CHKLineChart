@@ -7,64 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C53B14602048193600289E85 /* SettingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B145F2048193600289E85 /* SettingDetailViewController.swift */; };
-		C56EE2842048E5DE004CFC65 /* SeriesSettingDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56EE2832048E5DE004CFC65 /* SeriesSettingDetailCell.swift */; };
-		C58173E62047DAF400598AE2 /* SettingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58173E52047DAF400598AE2 /* SettingListViewController.swift */; };
-		C58173E82047E47800598AE2 /* SeriesParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58173E72047E47800598AE2 /* SeriesParam.swift */; };
-		C58173EA2047E64300598AE2 /* SeriesSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58173E92047E64300598AE2 /* SeriesSettingCell.swift */; };
-		C5AF869A2053C3A9000C7F14 /* CHKLineChartKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AF86992053C3A9000C7F14 /* CHKLineChartKit.framework */; };
-		C5AF869B2053C3A9000C7F14 /* CHKLineChartKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C5AF86992053C3A9000C7F14 /* CHKLineChartKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C5DAC4132044F25500D16B84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC4122044F25500D16B84 /* AppDelegate.swift */; };
-		C5DAC4182044F25500D16B84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DAC4162044F25500D16B84 /* Main.storyboard */; };
-		C5DAC41A2044F25500D16B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5DAC4192044F25500D16B84 /* Assets.xcassets */; };
-		C5DAC41D2044F25500D16B84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DAC41B2044F25500D16B84 /* LaunchScreen.storyboard */; };
-		C5DAC4282044F25500D16B84 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC4272044F25500D16B84 /* ExampleTests.swift */; };
-		C5DAC4412044F70B00D16B84 /* CustomStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC4332044F70B00D16B84 /* CustomStyleViewController.swift */; };
-		C5DAC4422044F70B00D16B84 /* ChartImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC4342044F70B00D16B84 /* ChartImageViewController.swift */; };
-		C5DAC4432044F70B00D16B84 /* DemoSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC4352044F70B00D16B84 /* DemoSelectViewController.swift */; };
-		C5DAC4442044F70B00D16B84 /* DepthChartDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC4362044F70B00D16B84 /* DepthChartDemoViewController.swift */; };
-		C5DAC4452044F70B00D16B84 /* KChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC4382044F70B00D16B84 /* KChartCell.swift */; };
-		C5DAC4462044F70B00D16B84 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC4392044F70B00D16B84 /* SectionHeaderView.swift */; };
-		C5DAC4472044F70B00D16B84 /* ChartDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC43A2044F70B00D16B84 /* ChartDemoViewController.swift */; };
-		C5DAC4482044F70B00D16B84 /* ChartStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC43C2044F70B00D16B84 /* ChartStyles.swift */; };
-		C5DAC4492044F70B00D16B84 /* StyleSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC43D2044F70B00D16B84 /* StyleSettingViewController.swift */; };
-		C5DAC44A2044F70B00D16B84 /* ChartCustomDesignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC43E2044F70B00D16B84 /* ChartCustomDesignViewController.swift */; };
-		C5DAC44B2044F70B00D16B84 /* ChartFullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC43F2044F70B00D16B84 /* ChartFullViewController.swift */; };
-		C5DAC44C2044F70B00D16B84 /* ChartInTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC4402044F70B00D16B84 /* ChartInTableViewController.swift */; };
-		C5DAC4502044F74F00D16B84 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C5DAC44E2044F74E00D16B84 /* data.json */; };
-		C5DAC4512044F74F00D16B84 /* depth.json in Resources */ = {isa = PBXBuildFile; fileRef = C5DAC44F2044F74F00D16B84 /* depth.json */; };
-		C5DAC458204500F100D16B84 /* ChartCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC457204500F100D16B84 /* ChartCustomViewController.swift */; };
-		C5DAC45A204505BF00D16B84 /* ChartDatasFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC459204505BF00D16B84 /* ChartDatasFetcher.swift */; };
-		C5DAC45D20450B1300D16B84 /* KlineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC45C20450B1300D16B84 /* KlineChartData.swift */; };
-		C5DAC46120453EF700D16B84 /* TickerTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC46020453EF700D16B84 /* TickerTopView.swift */; };
-		C5DAC46820455C0200D16B84 /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC46320455C0200D16B84 /* String+extension.swift */; };
-		C5DAC46920455C0200D16B84 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC46420455C0200D16B84 /* UIColor+extension.swift */; };
-		C5DAC46A20455C0200D16B84 /* Double+exension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC46520455C0200D16B84 /* Double+exension.swift */; };
-		C5DAC46B20455C0200D16B84 /* NSDate+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC46620455C0200D16B84 /* NSDate+extension.swift */; };
-		C5DAC46C20455C0200D16B84 /* Int+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC46720455C0200D16B84 /* Int+extension.swift */; };
-		C5DAC46E2045791E00D16B84 /* SelectionPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAC46D2045791E00D16B84 /* SelectionPopView.swift */; };
-		C5DC618D204E902700241CD8 /* ChartStyleSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DC618C204E902700241CD8 /* ChartStyleSettingViewController.swift */; };
-		EAC91950E4ADF8C3243794DC /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2638DFE8B9DCAD20AACBB229 /* Pods_Example.framework */; };
+		002B367F26FC7DE7006D7877 /* CustomStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B365426FC7DE7006D7877 /* CustomStyleViewController.swift */; };
+		002B368026FC7DE7006D7877 /* StyleSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B365526FC7DE7006D7877 /* StyleSettingViewController.swift */; };
+		002B368126FC7DE7006D7877 /* ChartDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B365626FC7DE7006D7877 /* ChartDemoViewController.swift */; };
+		002B368226FC7DE7006D7877 /* DepthChartDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B365726FC7DE7006D7877 /* DepthChartDemoViewController.swift */; };
+		002B368326FC7DE7006D7877 /* SettingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B365826FC7DE7006D7877 /* SettingListViewController.swift */; };
+		002B368426FC7DE7006D7877 /* ChartDatasFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B365A26FC7DE7006D7877 /* ChartDatasFetcher.swift */; };
+		002B368526FC7DE7006D7877 /* KlineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B365B26FC7DE7006D7877 /* KlineChartData.swift */; };
+		002B368626FC7DE7006D7877 /* SeriesParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B365C26FC7DE7006D7877 /* SeriesParam.swift */; };
+		002B368726FC7DE7006D7877 /* Double+exension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B365E26FC7DE7006D7877 /* Double+exension.swift */; };
+		002B368826FC7DE7006D7877 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B365F26FC7DE7006D7877 /* UIColor+extension.swift */; };
+		002B368926FC7DE7006D7877 /* Int+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B366026FC7DE7006D7877 /* Int+extension.swift */; };
+		002B368A26FC7DE7006D7877 /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B366126FC7DE7006D7877 /* String+extension.swift */; };
+		002B368B26FC7DE7006D7877 /* NSDate+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B366226FC7DE7006D7877 /* NSDate+extension.swift */; };
+		002B368C26FC7DE7006D7877 /* ChartStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B366426FC7DE7006D7877 /* ChartStyles.swift */; };
+		002B368D26FC7DE7006D7877 /* ChartFullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B366526FC7DE7006D7877 /* ChartFullViewController.swift */; };
+		002B368E26FC7DE7006D7877 /* DemoSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B366626FC7DE7006D7877 /* DemoSelectViewController.swift */; };
+		002B368F26FC7DE7006D7877 /* SettingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B366726FC7DE7006D7877 /* SettingDetailViewController.swift */; };
+		002B369026FC7DE7006D7877 /* ChartInTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B366826FC7DE7006D7877 /* ChartInTableViewController.swift */; };
+		002B369126FC7DE7006D7877 /* ChartCustomDesignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B366926FC7DE7006D7877 /* ChartCustomDesignViewController.swift */; };
+		002B369226FC7DE7006D7877 /* SelectionPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B366A26FC7DE7006D7877 /* SelectionPopView.swift */; };
+		002B369326FC7DE7006D7877 /* ChartImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B366B26FC7DE7006D7877 /* ChartImageViewController.swift */; };
+		002B369426FC7DE7006D7877 /* KChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B366D26FC7DE7006D7877 /* KChartCell.swift */; };
+		002B369526FC7DE7006D7877 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B366E26FC7DE7006D7877 /* SectionHeaderView.swift */; };
+		002B369626FC7DE7006D7877 /* SeriesSettingDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B366F26FC7DE7006D7877 /* SeriesSettingDetailCell.swift */; };
+		002B369726FC7DE7006D7877 /* SeriesSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B367026FC7DE7006D7877 /* SeriesSettingCell.swift */; };
+		002B369826FC7DE7006D7877 /* TickerTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B367126FC7DE7006D7877 /* TickerTopView.swift */; };
+		002B369926FC7DE7006D7877 /* ChartCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B367226FC7DE7006D7877 /* ChartCustomViewController.swift */; };
+		002B369A26FC7DE7006D7877 /* ChartStyleSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B367326FC7DE7006D7877 /* ChartStyleSettingViewController.swift */; };
+		002B369B26FC7DE7006D7877 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 002B367626FC7DE7006D7877 /* data.json */; };
+		002B369C26FC7DE7006D7877 /* depth.json in Resources */ = {isa = PBXBuildFile; fileRef = 002B367726FC7DE7006D7877 /* depth.json */; };
+		002B369D26FC7DE7006D7877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002B367826FC7DE7006D7877 /* Assets.xcassets */; };
+		002B369E26FC7DE7006D7877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002B367926FC7DE7006D7877 /* LaunchScreen.storyboard */; };
+		002B369F26FC7DE7006D7877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002B367B26FC7DE7006D7877 /* Main.storyboard */; };
+		002B36A026FC7DE7006D7877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B367D26FC7DE7006D7877 /* AppDelegate.swift */; };
+		00674A0126FDD15B00E0D512 /* CHKLineChartKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00674A0026FDD15B00E0D512 /* CHKLineChartKit.framework */; };
+		00674A0226FDD15B00E0D512 /* CHKLineChartKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00674A0026FDD15B00E0D512 /* CHKLineChartKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		00674A1426FDD5A000E0D512 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00674A0426FDD59F00E0D512 /* ViewController.m */; };
+		00674A1526FDD5A000E0D512 /* KlineInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 00674A0526FDD59F00E0D512 /* KlineInfo.m */; };
+		00674A1626FDD5A000E0D512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00674A0926FDD5A000E0D512 /* Assets.xcassets */; };
+		00674A1726FDD5A000E0D512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00674A0A26FDD5A000E0D512 /* LaunchScreen.storyboard */; };
+		00674A1826FDD5A000E0D512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00674A0C26FDD5A000E0D512 /* Main.storyboard */; };
+		00674A1926FDD5A000E0D512 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00674A0E26FDD5A000E0D512 /* main.m */; };
+		00674A1B26FDD5A000E0D512 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00674A1226FDD5A000E0D512 /* LineChartView.swift */; };
+		00674A1C26FDD5A000E0D512 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00674A1326FDD5A000E0D512 /* AppDelegate.m */; };
+		00674A1E26FDD78000E0D512 /* CHKLineChartKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00674A1D26FDD78000E0D512 /* CHKLineChartKit.framework */; };
+		00674A1F26FDD78000E0D512 /* CHKLineChartKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00674A1D26FDD78000E0D512 /* CHKLineChartKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F13FD5DAE38B2DD9732942B /* Pods_CHKLineChartKit_Demo_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B096E6F9AFAD7A4BBDCFD3E0 /* Pods_CHKLineChartKit_Demo_Swift.framework */; };
+		D0792238378FF79B346DDBC0 /* Pods_CHKLineChartKit_Demo_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEED639C398FCE5D9EE3BD93 /* Pods_CHKLineChartKit_Demo_ObjC.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C5DAC4242044F25500D16B84 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5DAC4072044F25500D16B84 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C5DAC40E2044F25500D16B84;
-			remoteInfo = Example;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
+		00674A2026FDD78000E0D512 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				00674A1F26FDD78000E0D512 /* CHKLineChartKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C5AF869C2053C3A9000C7F14 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C5AF869B2053C3A9000C7F14 /* CHKLineChartKit.framework in Embed Frameworks */,
+				00674A0226FDD15B00E0D512 /* CHKLineChartKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,216 +83,276 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1B442F95CFE9EA0B2B1C0BE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2638DFE8B9DCAD20AACBB229 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C5EB2820267D31519C777AE /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		C53B145F2048193600289E85 /* SettingDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingDetailViewController.swift; sourceTree = "<group>"; };
-		C55110A720464BDC00B0BC91 /* Example_bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Example_bridging_Header.h; sourceTree = "<group>"; };
-		C56EE2832048E5DE004CFC65 /* SeriesSettingDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesSettingDetailCell.swift; sourceTree = "<group>"; };
-		C58173E52047DAF400598AE2 /* SettingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingListViewController.swift; sourceTree = "<group>"; };
-		C58173E72047E47800598AE2 /* SeriesParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesParam.swift; sourceTree = "<group>"; };
-		C58173E92047E64300598AE2 /* SeriesSettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesSettingCell.swift; sourceTree = "<group>"; };
-		C5AF86992053C3A9000C7F14 /* CHKLineChartKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CHKLineChartKit.framework; path = ../Carthage/Build/iOS/CHKLineChartKit.framework; sourceTree = "<group>"; };
-		C5DAC40F2044F25500D16B84 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5DAC4122044F25500D16B84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5DAC4172044F25500D16B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C5DAC4192044F25500D16B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C5DAC41C2044F25500D16B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C5DAC41E2044F25500D16B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5DAC4232044F25500D16B84 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5DAC4272044F25500D16B84 /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
-		C5DAC4292044F25500D16B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5DAC4332044F70B00D16B84 /* CustomStyleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStyleViewController.swift; sourceTree = "<group>"; };
-		C5DAC4342044F70B00D16B84 /* ChartImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartImageViewController.swift; sourceTree = "<group>"; };
-		C5DAC4352044F70B00D16B84 /* DemoSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSelectViewController.swift; sourceTree = "<group>"; };
-		C5DAC4362044F70B00D16B84 /* DepthChartDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthChartDemoViewController.swift; sourceTree = "<group>"; };
-		C5DAC4382044F70B00D16B84 /* KChartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KChartCell.swift; sourceTree = "<group>"; };
-		C5DAC4392044F70B00D16B84 /* SectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
-		C5DAC43A2044F70B00D16B84 /* ChartDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDemoViewController.swift; sourceTree = "<group>"; };
-		C5DAC43C2044F70B00D16B84 /* ChartStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartStyles.swift; sourceTree = "<group>"; };
-		C5DAC43D2044F70B00D16B84 /* StyleSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleSettingViewController.swift; sourceTree = "<group>"; };
-		C5DAC43E2044F70B00D16B84 /* ChartCustomDesignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartCustomDesignViewController.swift; sourceTree = "<group>"; };
-		C5DAC43F2044F70B00D16B84 /* ChartFullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartFullViewController.swift; sourceTree = "<group>"; };
-		C5DAC4402044F70B00D16B84 /* ChartInTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartInTableViewController.swift; sourceTree = "<group>"; };
-		C5DAC44E2044F74E00D16B84 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		C5DAC44F2044F74F00D16B84 /* depth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = depth.json; sourceTree = "<group>"; };
-		C5DAC457204500F100D16B84 /* ChartCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartCustomViewController.swift; sourceTree = "<group>"; };
-		C5DAC459204505BF00D16B84 /* ChartDatasFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDatasFetcher.swift; sourceTree = "<group>"; };
-		C5DAC45C20450B1300D16B84 /* KlineChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlineChartData.swift; sourceTree = "<group>"; };
-		C5DAC46020453EF700D16B84 /* TickerTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerTopView.swift; sourceTree = "<group>"; };
-		C5DAC46320455C0200D16B84 /* String+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
-		C5DAC46420455C0200D16B84 /* UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
-		C5DAC46520455C0200D16B84 /* Double+exension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+exension.swift"; sourceTree = "<group>"; };
-		C5DAC46620455C0200D16B84 /* NSDate+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+extension.swift"; sourceTree = "<group>"; };
-		C5DAC46720455C0200D16B84 /* Int+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+extension.swift"; sourceTree = "<group>"; };
-		C5DAC46D2045791E00D16B84 /* SelectionPopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionPopView.swift; sourceTree = "<group>"; };
-		C5DC618C204E902700241CD8 /* ChartStyleSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartStyleSettingViewController.swift; sourceTree = "<group>"; };
+		002B365426FC7DE7006D7877 /* CustomStyleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStyleViewController.swift; sourceTree = "<group>"; };
+		002B365526FC7DE7006D7877 /* StyleSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleSettingViewController.swift; sourceTree = "<group>"; };
+		002B365626FC7DE7006D7877 /* ChartDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDemoViewController.swift; sourceTree = "<group>"; };
+		002B365726FC7DE7006D7877 /* DepthChartDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthChartDemoViewController.swift; sourceTree = "<group>"; };
+		002B365826FC7DE7006D7877 /* SettingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingListViewController.swift; sourceTree = "<group>"; };
+		002B365A26FC7DE7006D7877 /* ChartDatasFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDatasFetcher.swift; sourceTree = "<group>"; };
+		002B365B26FC7DE7006D7877 /* KlineChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KlineChartData.swift; sourceTree = "<group>"; };
+		002B365C26FC7DE7006D7877 /* SeriesParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesParam.swift; sourceTree = "<group>"; };
+		002B365E26FC7DE7006D7877 /* Double+exension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+exension.swift"; sourceTree = "<group>"; };
+		002B365F26FC7DE7006D7877 /* UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		002B366026FC7DE7006D7877 /* Int+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+extension.swift"; sourceTree = "<group>"; };
+		002B366126FC7DE7006D7877 /* String+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
+		002B366226FC7DE7006D7877 /* NSDate+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+extension.swift"; sourceTree = "<group>"; };
+		002B366426FC7DE7006D7877 /* ChartStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartStyles.swift; sourceTree = "<group>"; };
+		002B366526FC7DE7006D7877 /* ChartFullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartFullViewController.swift; sourceTree = "<group>"; };
+		002B366626FC7DE7006D7877 /* DemoSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSelectViewController.swift; sourceTree = "<group>"; };
+		002B366726FC7DE7006D7877 /* SettingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingDetailViewController.swift; sourceTree = "<group>"; };
+		002B366826FC7DE7006D7877 /* ChartInTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartInTableViewController.swift; sourceTree = "<group>"; };
+		002B366926FC7DE7006D7877 /* ChartCustomDesignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartCustomDesignViewController.swift; sourceTree = "<group>"; };
+		002B366A26FC7DE7006D7877 /* SelectionPopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionPopView.swift; sourceTree = "<group>"; };
+		002B366B26FC7DE7006D7877 /* ChartImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartImageViewController.swift; sourceTree = "<group>"; };
+		002B366D26FC7DE7006D7877 /* KChartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KChartCell.swift; sourceTree = "<group>"; };
+		002B366E26FC7DE7006D7877 /* SectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		002B366F26FC7DE7006D7877 /* SeriesSettingDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesSettingDetailCell.swift; sourceTree = "<group>"; };
+		002B367026FC7DE7006D7877 /* SeriesSettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesSettingCell.swift; sourceTree = "<group>"; };
+		002B367126FC7DE7006D7877 /* TickerTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickerTopView.swift; sourceTree = "<group>"; };
+		002B367226FC7DE7006D7877 /* ChartCustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartCustomViewController.swift; sourceTree = "<group>"; };
+		002B367326FC7DE7006D7877 /* ChartStyleSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartStyleSettingViewController.swift; sourceTree = "<group>"; };
+		002B367426FC7DE7006D7877 /* Example_bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example_bridging_Header.h; sourceTree = "<group>"; };
+		002B367626FC7DE7006D7877 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		002B367726FC7DE7006D7877 /* depth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = depth.json; sourceTree = "<group>"; };
+		002B367826FC7DE7006D7877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		002B367A26FC7DE7006D7877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		002B367C26FC7DE7006D7877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		002B367D26FC7DE7006D7877 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		002B367E26FC7DE7006D7877 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00674A0026FDD15B00E0D512 /* CHKLineChartKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHKLineChartKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00674A0426FDD59F00E0D512 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00674A0526FDD59F00E0D512 /* KlineInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KlineInfo.m; sourceTree = "<group>"; };
+		00674A0626FDD59F00E0D512 /* ExampleObjC-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ExampleObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		00674A0726FDD59F00E0D512 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00674A0926FDD5A000E0D512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00674A0B26FDD5A000E0D512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00674A0D26FDD5A000E0D512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00674A0E26FDD5A000E0D512 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00674A0F26FDD5A000E0D512 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00674A1026FDD5A000E0D512 /* KlineInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KlineInfo.h; sourceTree = "<group>"; };
+		00674A1126FDD5A000E0D512 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00674A1226FDD5A000E0D512 /* LineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		00674A1326FDD5A000E0D512 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00674A1D26FDD78000E0D512 /* CHKLineChartKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHKLineChartKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		007C33C226FDCCAD0065DA99 /* CHKLineChartKit-Demo-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CHKLineChartKit-Demo-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F85D69EF8A40257E6C7CB71 /* Pods-CHKLineChartKit-Demo-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHKLineChartKit-Demo-Swift.release.xcconfig"; path = "Target Support Files/Pods-CHKLineChartKit-Demo-Swift/Pods-CHKLineChartKit-Demo-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		61878B6EA03A66164FDF76E2 /* Pods-CHKLineChartKit-Demo-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHKLineChartKit-Demo-Swift.debug.xcconfig"; path = "Target Support Files/Pods-CHKLineChartKit-Demo-Swift/Pods-CHKLineChartKit-Demo-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		AEED639C398FCE5D9EE3BD93 /* Pods_CHKLineChartKit_Demo_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHKLineChartKit_Demo_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B096E6F9AFAD7A4BBDCFD3E0 /* Pods_CHKLineChartKit_Demo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHKLineChartKit_Demo_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DAC40F2044F25500D16B84 /* CHKLineChartKit-Demo-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CHKLineChartKit-Demo-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C31B0B6F14A8B0E5B66F26 /* Pods-CHKLineChartKit-Demo-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHKLineChartKit-Demo-ObjC.release.xcconfig"; path = "Target Support Files/Pods-CHKLineChartKit-Demo-ObjC/Pods-CHKLineChartKit-Demo-ObjC.release.xcconfig"; sourceTree = "<group>"; };
+		F08647C50F704588D418BB60 /* Pods-CHKLineChartKit-Demo-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHKLineChartKit-Demo-ObjC.debug.xcconfig"; path = "Target Support Files/Pods-CHKLineChartKit-Demo-ObjC/Pods-CHKLineChartKit-Demo-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		007C33BF26FDCCAD0065DA99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0792238378FF79B346DDBC0 /* Pods_CHKLineChartKit_Demo_ObjC.framework in Frameworks */,
+				00674A1E26FDD78000E0D512 /* CHKLineChartKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C5DAC40C2044F25500D16B84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAC91950E4ADF8C3243794DC /* Pods_Example.framework in Frameworks */,
-				C5AF869A2053C3A9000C7F14 /* CHKLineChartKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5DAC4202044F25500D16B84 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3F13FD5DAE38B2DD9732942B /* Pods_CHKLineChartKit_Demo_Swift.framework in Frameworks */,
+				00674A0126FDD15B00E0D512 /* CHKLineChartKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		002B365226FC7DE7006D7877 /* CHKLineChartKit-Demo-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				002B365326FC7DE7006D7877 /* Demo */,
+				002B367426FC7DE7006D7877 /* Example_bridging_Header.h */,
+				002B367526FC7DE7006D7877 /* Resources */,
+				002B367826FC7DE7006D7877 /* Assets.xcassets */,
+				002B367926FC7DE7006D7877 /* LaunchScreen.storyboard */,
+				002B367B26FC7DE7006D7877 /* Main.storyboard */,
+				002B367D26FC7DE7006D7877 /* AppDelegate.swift */,
+				002B367E26FC7DE7006D7877 /* Info.plist */,
+			);
+			path = "CHKLineChartKit-Demo-Swift";
+			sourceTree = "<group>";
+		};
+		002B365326FC7DE7006D7877 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				002B365426FC7DE7006D7877 /* CustomStyleViewController.swift */,
+				002B365526FC7DE7006D7877 /* StyleSettingViewController.swift */,
+				002B365626FC7DE7006D7877 /* ChartDemoViewController.swift */,
+				002B365726FC7DE7006D7877 /* DepthChartDemoViewController.swift */,
+				002B365826FC7DE7006D7877 /* SettingListViewController.swift */,
+				002B365926FC7DE7006D7877 /* models */,
+				002B365D26FC7DE7006D7877 /* extensions */,
+				002B366326FC7DE7006D7877 /* styles */,
+				002B366526FC7DE7006D7877 /* ChartFullViewController.swift */,
+				002B366626FC7DE7006D7877 /* DemoSelectViewController.swift */,
+				002B366726FC7DE7006D7877 /* SettingDetailViewController.swift */,
+				002B366826FC7DE7006D7877 /* ChartInTableViewController.swift */,
+				002B366926FC7DE7006D7877 /* ChartCustomDesignViewController.swift */,
+				002B366A26FC7DE7006D7877 /* SelectionPopView.swift */,
+				002B366B26FC7DE7006D7877 /* ChartImageViewController.swift */,
+				002B366C26FC7DE7006D7877 /* views */,
+				002B367226FC7DE7006D7877 /* ChartCustomViewController.swift */,
+				002B367326FC7DE7006D7877 /* ChartStyleSettingViewController.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		002B365926FC7DE7006D7877 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				002B365A26FC7DE7006D7877 /* ChartDatasFetcher.swift */,
+				002B365B26FC7DE7006D7877 /* KlineChartData.swift */,
+				002B365C26FC7DE7006D7877 /* SeriesParam.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		002B365D26FC7DE7006D7877 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				002B365E26FC7DE7006D7877 /* Double+exension.swift */,
+				002B365F26FC7DE7006D7877 /* UIColor+extension.swift */,
+				002B366026FC7DE7006D7877 /* Int+extension.swift */,
+				002B366126FC7DE7006D7877 /* String+extension.swift */,
+				002B366226FC7DE7006D7877 /* NSDate+extension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		002B366326FC7DE7006D7877 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				002B366426FC7DE7006D7877 /* ChartStyles.swift */,
+			);
+			path = styles;
+			sourceTree = "<group>";
+		};
+		002B366C26FC7DE7006D7877 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				002B366D26FC7DE7006D7877 /* KChartCell.swift */,
+				002B366E26FC7DE7006D7877 /* SectionHeaderView.swift */,
+				002B366F26FC7DE7006D7877 /* SeriesSettingDetailCell.swift */,
+				002B367026FC7DE7006D7877 /* SeriesSettingCell.swift */,
+				002B367126FC7DE7006D7877 /* TickerTopView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		002B367526FC7DE7006D7877 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				002B367626FC7DE7006D7877 /* data.json */,
+				002B367726FC7DE7006D7877 /* depth.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		00674A0826FDD5A000E0D512 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00674A0926FDD5A000E0D512 /* Assets.xcassets */,
+				00674A0A26FDD5A000E0D512 /* LaunchScreen.storyboard */,
+				00674A0C26FDD5A000E0D512 /* Main.storyboard */,
+				00674A0E26FDD5A000E0D512 /* main.m */,
+				00674A0F26FDD5A000E0D512 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		007C33C326FDCCAD0065DA99 /* CHKLineChartKit-Demo-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				00674A0726FDD59F00E0D512 /* AppDelegate.h */,
+				00674A1326FDD5A000E0D512 /* AppDelegate.m */,
+				00674A0626FDD59F00E0D512 /* ExampleObjC-Bridging-Header.h */,
+				00674A1026FDD5A000E0D512 /* KlineInfo.h */,
+				00674A0526FDD59F00E0D512 /* KlineInfo.m */,
+				00674A1226FDD5A000E0D512 /* LineChartView.swift */,
+				00674A0826FDD5A000E0D512 /* Supporting Files */,
+				00674A1126FDD5A000E0D512 /* ViewController.h */,
+				00674A0426FDD59F00E0D512 /* ViewController.m */,
+			);
+			path = "CHKLineChartKit-Demo-ObjC";
+			sourceTree = "<group>";
+		};
 		1141BAD1968DAACEFA80F472 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C5AF86992053C3A9000C7F14 /* CHKLineChartKit.framework */,
-				2638DFE8B9DCAD20AACBB229 /* Pods_Example.framework */,
+				00674A1D26FDD78000E0D512 /* CHKLineChartKit.framework */,
+				00674A0026FDD15B00E0D512 /* CHKLineChartKit.framework */,
+				B096E6F9AFAD7A4BBDCFD3E0 /* Pods_CHKLineChartKit_Demo_Swift.framework */,
+				AEED639C398FCE5D9EE3BD93 /* Pods_CHKLineChartKit_Demo_ObjC.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		517BB55CF72BC15C442F57BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61878B6EA03A66164FDF76E2 /* Pods-CHKLineChartKit-Demo-Swift.debug.xcconfig */,
+				2F85D69EF8A40257E6C7CB71 /* Pods-CHKLineChartKit-Demo-Swift.release.xcconfig */,
+				F08647C50F704588D418BB60 /* Pods-CHKLineChartKit-Demo-ObjC.debug.xcconfig */,
+				C6C31B0B6F14A8B0E5B66F26 /* Pods-CHKLineChartKit-Demo-ObjC.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		C5DAC4062044F25500D16B84 = {
 			isa = PBXGroup;
 			children = (
-				C5DAC4112044F25500D16B84 /* Example */,
-				C5DAC4262044F25500D16B84 /* ExampleTests */,
+				002B365226FC7DE7006D7877 /* CHKLineChartKit-Demo-Swift */,
+				007C33C326FDCCAD0065DA99 /* CHKLineChartKit-Demo-ObjC */,
 				C5DAC4102044F25500D16B84 /* Products */,
-				DD8A7D17C209E729A4E69DFA /* Pods */,
 				1141BAD1968DAACEFA80F472 /* Frameworks */,
+				517BB55CF72BC15C442F57BD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		C5DAC4102044F25500D16B84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C5DAC40F2044F25500D16B84 /* Example.app */,
-				C5DAC4232044F25500D16B84 /* ExampleTests.xctest */,
+				C5DAC40F2044F25500D16B84 /* CHKLineChartKit-Demo-Swift.app */,
+				007C33C226FDCCAD0065DA99 /* CHKLineChartKit-Demo-ObjC.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C5DAC4112044F25500D16B84 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				C5DAC44D2044F72F00D16B84 /* Resources */,
-				C5DAC4322044F39100D16B84 /* Demo */,
-				C5DAC4122044F25500D16B84 /* AppDelegate.swift */,
-				C5DAC4162044F25500D16B84 /* Main.storyboard */,
-				C5DAC4192044F25500D16B84 /* Assets.xcassets */,
-				C5DAC41B2044F25500D16B84 /* LaunchScreen.storyboard */,
-				C5DAC41E2044F25500D16B84 /* Info.plist */,
-				C55110A720464BDC00B0BC91 /* Example_bridging_Header.h */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
-		C5DAC4262044F25500D16B84 /* ExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				C5DAC4272044F25500D16B84 /* ExampleTests.swift */,
-				C5DAC4292044F25500D16B84 /* Info.plist */,
-			);
-			path = ExampleTests;
-			sourceTree = "<group>";
-		};
-		C5DAC4322044F39100D16B84 /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				C5DAC46220455BEF00D16B84 /* extensions */,
-				C5DAC45B20450AAA00D16B84 /* models */,
-				C5DAC43B2044F70B00D16B84 /* styles */,
-				C5DAC4372044F70B00D16B84 /* views */,
-				C5DAC43E2044F70B00D16B84 /* ChartCustomDesignViewController.swift */,
-				C5DAC43A2044F70B00D16B84 /* ChartDemoViewController.swift */,
-				C5DAC43F2044F70B00D16B84 /* ChartFullViewController.swift */,
-				C5DAC4342044F70B00D16B84 /* ChartImageViewController.swift */,
-				C5DAC4402044F70B00D16B84 /* ChartInTableViewController.swift */,
-				C5DAC4332044F70B00D16B84 /* CustomStyleViewController.swift */,
-				C5DAC4352044F70B00D16B84 /* DemoSelectViewController.swift */,
-				C5DAC4362044F70B00D16B84 /* DepthChartDemoViewController.swift */,
-				C5DAC43D2044F70B00D16B84 /* StyleSettingViewController.swift */,
-				C5DAC457204500F100D16B84 /* ChartCustomViewController.swift */,
-				C5DAC46D2045791E00D16B84 /* SelectionPopView.swift */,
-				C58173E52047DAF400598AE2 /* SettingListViewController.swift */,
-				C53B145F2048193600289E85 /* SettingDetailViewController.swift */,
-				C5DC618C204E902700241CD8 /* ChartStyleSettingViewController.swift */,
-			);
-			path = Demo;
-			sourceTree = "<group>";
-		};
-		C5DAC4372044F70B00D16B84 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				C5DAC4382044F70B00D16B84 /* KChartCell.swift */,
-				C5DAC4392044F70B00D16B84 /* SectionHeaderView.swift */,
-				C5DAC46020453EF700D16B84 /* TickerTopView.swift */,
-				C58173E92047E64300598AE2 /* SeriesSettingCell.swift */,
-				C56EE2832048E5DE004CFC65 /* SeriesSettingDetailCell.swift */,
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		C5DAC43B2044F70B00D16B84 /* styles */ = {
-			isa = PBXGroup;
-			children = (
-				C5DAC43C2044F70B00D16B84 /* ChartStyles.swift */,
-			);
-			path = styles;
-			sourceTree = "<group>";
-		};
-		C5DAC44D2044F72F00D16B84 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C5DAC44E2044F74E00D16B84 /* data.json */,
-				C5DAC44F2044F74F00D16B84 /* depth.json */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		C5DAC45B20450AAA00D16B84 /* models */ = {
-			isa = PBXGroup;
-			children = (
-				C5DAC459204505BF00D16B84 /* ChartDatasFetcher.swift */,
-				C5DAC45C20450B1300D16B84 /* KlineChartData.swift */,
-				C58173E72047E47800598AE2 /* SeriesParam.swift */,
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
-		C5DAC46220455BEF00D16B84 /* extensions */ = {
-			isa = PBXGroup;
-			children = (
-				C5DAC46520455C0200D16B84 /* Double+exension.swift */,
-				C5DAC46720455C0200D16B84 /* Int+extension.swift */,
-				C5DAC46620455C0200D16B84 /* NSDate+extension.swift */,
-				C5DAC46320455C0200D16B84 /* String+extension.swift */,
-				C5DAC46420455C0200D16B84 /* UIColor+extension.swift */,
-			);
-			path = extensions;
-			sourceTree = "<group>";
-		};
-		DD8A7D17C209E729A4E69DFA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1B442F95CFE9EA0B2B1C0BE5 /* Pods-Example.debug.xcconfig */,
-				6C5EB2820267D31519C777AE /* Pods-Example.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C5DAC40E2044F25500D16B84 /* Example */ = {
+		007C33C126FDCCAD0065DA99 /* CHKLineChartKit-Demo-ObjC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5DAC42C2044F25500D16B84 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildConfigurationList = 007C33DA26FDCCAE0065DA99 /* Build configuration list for PBXNativeTarget "CHKLineChartKit-Demo-ObjC" */;
+			buildPhases = (
+				212B96BE6CB179EC14E1C8C2 /* [CP] Check Pods Manifest.lock */,
+				007C33BE26FDCCAD0065DA99 /* Sources */,
+				007C33BF26FDCCAD0065DA99 /* Frameworks */,
+				007C33C026FDCCAD0065DA99 /* Resources */,
+				6A47E21EA1FBCA5301BD313F /* [CP] Embed Pods Frameworks */,
+				00674A2026FDD78000E0D512 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CHKLineChartKit-Demo-ObjC";
+			productName = "CHKLineChartKit-Demo-ObjC";
+			productReference = 007C33C226FDCCAD0065DA99 /* CHKLineChartKit-Demo-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5DAC40E2044F25500D16B84 /* CHKLineChartKit-Demo-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5DAC42C2044F25500D16B84 /* Build configuration list for PBXNativeTarget "CHKLineChartKit-Demo-Swift" */;
 			buildPhases = (
 				14B12AD63ED0513672301185 /* [CP] Check Pods Manifest.lock */,
 				C5DAC40B2044F25500D16B84 /* Sources */,
@@ -289,34 +360,15 @@
 				C5DAC40D2044F25500D16B84 /* Resources */,
 				ABE71615878980D4C63F2A39 /* [CP] Embed Pods Frameworks */,
 				C5AF869C2053C3A9000C7F14 /* Embed Frameworks */,
-				D64CD7160C1B60858478717B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Example;
+			name = "CHKLineChartKit-Demo-Swift";
 			productName = Example;
-			productReference = C5DAC40F2044F25500D16B84 /* Example.app */;
+			productReference = C5DAC40F2044F25500D16B84 /* CHKLineChartKit-Demo-Swift.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C5DAC4222044F25500D16B84 /* ExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C5DAC42F2044F25500D16B84 /* Build configuration list for PBXNativeTarget "ExampleTests" */;
-			buildPhases = (
-				C5DAC41F2044F25500D16B84 /* Sources */,
-				C5DAC4202044F25500D16B84 /* Frameworks */,
-				C5DAC4212044F25500D16B84 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C5DAC4252044F25500D16B84 /* PBXTargetDependency */,
-			);
-			name = ExampleTests;
-			productName = ExampleTests;
-			productReference = C5DAC4232044F25500D16B84 /* ExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -328,18 +380,18 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Chance;
 				TargetAttributes = {
+					007C33C126FDCCAD0065DA99 = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
+						ProvisioningStyle = Automatic;
+					};
 					C5DAC40E2044F25500D16B84 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					C5DAC4222044F25500D16B84 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = C5DAC40E2044F25500D16B84;
-					};
 				};
 			};
-			buildConfigurationList = C5DAC40A2044F25500D16B84 /* Build configuration list for PBXProject "Example" */;
+			buildConfigurationList = C5DAC40A2044F25500D16B84 /* Build configuration list for PBXProject "CHKLineChartKit-Demo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -352,29 +404,32 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C5DAC40E2044F25500D16B84 /* Example */,
-				C5DAC4222044F25500D16B84 /* ExampleTests */,
+				C5DAC40E2044F25500D16B84 /* CHKLineChartKit-Demo-Swift */,
+				007C33C126FDCCAD0065DA99 /* CHKLineChartKit-Demo-ObjC */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		007C33C026FDCCAD0065DA99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00674A1826FDD5A000E0D512 /* Main.storyboard in Resources */,
+				00674A1626FDD5A000E0D512 /* Assets.xcassets in Resources */,
+				00674A1726FDD5A000E0D512 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C5DAC40D2044F25500D16B84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5DAC41D2044F25500D16B84 /* LaunchScreen.storyboard in Resources */,
-				C5DAC41A2044F25500D16B84 /* Assets.xcassets in Resources */,
-				C5DAC4182044F25500D16B84 /* Main.storyboard in Resources */,
-				C5DAC4512044F74F00D16B84 /* depth.json in Resources */,
-				C5DAC4502044F74F00D16B84 /* data.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5DAC4212044F25500D16B84 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				002B369B26FC7DE7006D7877 /* data.json in Resources */,
+				002B369F26FC7DE7006D7877 /* Main.storyboard in Resources */,
+				002B369E26FC7DE7006D7877 /* LaunchScreen.storyboard in Resources */,
+				002B369D26FC7DE7006D7877 /* Assets.xcassets in Resources */,
+				002B369C26FC7DE7006D7877 /* depth.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,11 +447,51 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CHKLineChartKit-Demo-Swift-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		212B96BE6CB179EC14E1C8C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CHKLineChartKit-Demo-ObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A47E21EA1FBCA5301BD313F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CHKLineChartKit-Demo-ObjC/Pods-CHKLineChartKit-Demo-ObjC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CHKLineChartKit-Demo-ObjC/Pods-CHKLineChartKit-Demo-ObjC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ABE71615878980D4C63F2A39 /* [CP] Embed Pods Frameworks */ = {
@@ -405,7 +500,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CHKLineChartKit-Demo-Swift/Pods-CHKLineChartKit-Demo-Swift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MZAppearance/MZAppearance.framework",
 				"${BUILT_PRODUCTS_DIR}/MZFormSheetPresentationController/MZFormSheetPresentationController.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
@@ -420,101 +515,168 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D64CD7160C1B60858478717B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CHKLineChartKit-Demo-Swift/Pods-CHKLineChartKit-Demo-Swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		007C33BE26FDCCAD0065DA99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00674A1426FDD5A000E0D512 /* ViewController.m in Sources */,
+				00674A1926FDD5A000E0D512 /* main.m in Sources */,
+				00674A1526FDD5A000E0D512 /* KlineInfo.m in Sources */,
+				00674A1B26FDD5A000E0D512 /* LineChartView.swift in Sources */,
+				00674A1C26FDD5A000E0D512 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C5DAC40B2044F25500D16B84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C56EE2842048E5DE004CFC65 /* SeriesSettingDetailCell.swift in Sources */,
-				C5DAC46120453EF700D16B84 /* TickerTopView.swift in Sources */,
-				C5DAC44A2044F70B00D16B84 /* ChartCustomDesignViewController.swift in Sources */,
-				C5DAC4132044F25500D16B84 /* AppDelegate.swift in Sources */,
-				C5DAC46A20455C0200D16B84 /* Double+exension.swift in Sources */,
-				C53B14602048193600289E85 /* SettingDetailViewController.swift in Sources */,
-				C5DAC4442044F70B00D16B84 /* DepthChartDemoViewController.swift in Sources */,
-				C5DAC4492044F70B00D16B84 /* StyleSettingViewController.swift in Sources */,
-				C5DAC46E2045791E00D16B84 /* SelectionPopView.swift in Sources */,
-				C5DAC44B2044F70B00D16B84 /* ChartFullViewController.swift in Sources */,
-				C5DAC44C2044F70B00D16B84 /* ChartInTableViewController.swift in Sources */,
-				C5DAC45A204505BF00D16B84 /* ChartDatasFetcher.swift in Sources */,
-				C5DAC46820455C0200D16B84 /* String+extension.swift in Sources */,
-				C5DAC46B20455C0200D16B84 /* NSDate+extension.swift in Sources */,
-				C5DAC458204500F100D16B84 /* ChartCustomViewController.swift in Sources */,
-				C5DAC4432044F70B00D16B84 /* DemoSelectViewController.swift in Sources */,
-				C5DAC4422044F70B00D16B84 /* ChartImageViewController.swift in Sources */,
-				C5DAC4462044F70B00D16B84 /* SectionHeaderView.swift in Sources */,
-				C5DAC4452044F70B00D16B84 /* KChartCell.swift in Sources */,
-				C5DAC4482044F70B00D16B84 /* ChartStyles.swift in Sources */,
-				C5DAC4472044F70B00D16B84 /* ChartDemoViewController.swift in Sources */,
-				C58173E62047DAF400598AE2 /* SettingListViewController.swift in Sources */,
-				C5DAC45D20450B1300D16B84 /* KlineChartData.swift in Sources */,
-				C5DC618D204E902700241CD8 /* ChartStyleSettingViewController.swift in Sources */,
-				C5DAC4412044F70B00D16B84 /* CustomStyleViewController.swift in Sources */,
-				C58173E82047E47800598AE2 /* SeriesParam.swift in Sources */,
-				C58173EA2047E64300598AE2 /* SeriesSettingCell.swift in Sources */,
-				C5DAC46920455C0200D16B84 /* UIColor+extension.swift in Sources */,
-				C5DAC46C20455C0200D16B84 /* Int+extension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5DAC41F2044F25500D16B84 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5DAC4282044F25500D16B84 /* ExampleTests.swift in Sources */,
+				002B369426FC7DE7006D7877 /* KChartCell.swift in Sources */,
+				002B368626FC7DE7006D7877 /* SeriesParam.swift in Sources */,
+				002B368426FC7DE7006D7877 /* ChartDatasFetcher.swift in Sources */,
+				002B368726FC7DE7006D7877 /* Double+exension.swift in Sources */,
+				002B36A026FC7DE7006D7877 /* AppDelegate.swift in Sources */,
+				002B369A26FC7DE7006D7877 /* ChartStyleSettingViewController.swift in Sources */,
+				002B369626FC7DE7006D7877 /* SeriesSettingDetailCell.swift in Sources */,
+				002B368326FC7DE7006D7877 /* SettingListViewController.swift in Sources */,
+				002B368226FC7DE7006D7877 /* DepthChartDemoViewController.swift in Sources */,
+				002B369126FC7DE7006D7877 /* ChartCustomDesignViewController.swift in Sources */,
+				002B368B26FC7DE7006D7877 /* NSDate+extension.swift in Sources */,
+				002B369726FC7DE7006D7877 /* SeriesSettingCell.swift in Sources */,
+				002B368026FC7DE7006D7877 /* StyleSettingViewController.swift in Sources */,
+				002B369526FC7DE7006D7877 /* SectionHeaderView.swift in Sources */,
+				002B367F26FC7DE7006D7877 /* CustomStyleViewController.swift in Sources */,
+				002B368F26FC7DE7006D7877 /* SettingDetailViewController.swift in Sources */,
+				002B369326FC7DE7006D7877 /* ChartImageViewController.swift in Sources */,
+				002B368826FC7DE7006D7877 /* UIColor+extension.swift in Sources */,
+				002B368A26FC7DE7006D7877 /* String+extension.swift in Sources */,
+				002B369926FC7DE7006D7877 /* ChartCustomViewController.swift in Sources */,
+				002B368D26FC7DE7006D7877 /* ChartFullViewController.swift in Sources */,
+				002B369826FC7DE7006D7877 /* TickerTopView.swift in Sources */,
+				002B368C26FC7DE7006D7877 /* ChartStyles.swift in Sources */,
+				002B368526FC7DE7006D7877 /* KlineChartData.swift in Sources */,
+				002B368E26FC7DE7006D7877 /* DemoSelectViewController.swift in Sources */,
+				002B368126FC7DE7006D7877 /* ChartDemoViewController.swift in Sources */,
+				002B369226FC7DE7006D7877 /* SelectionPopView.swift in Sources */,
+				002B369026FC7DE7006D7877 /* ChartInTableViewController.swift in Sources */,
+				002B368926FC7DE7006D7877 /* Int+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		C5DAC4252044F25500D16B84 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C5DAC40E2044F25500D16B84 /* Example */;
-			targetProxy = C5DAC4242044F25500D16B84 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		C5DAC4162044F25500D16B84 /* Main.storyboard */ = {
+		002B367926FC7DE7006D7877 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C5DAC4172044F25500D16B84 /* Base */,
+				002B367A26FC7DE7006D7877 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		002B367B26FC7DE7006D7877 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002B367C26FC7DE7006D7877 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C5DAC41B2044F25500D16B84 /* LaunchScreen.storyboard */ = {
+		00674A0A26FDD5A000E0D512 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C5DAC41C2044F25500D16B84 /* Base */,
+				00674A0B26FDD5A000E0D512 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00674A0C26FDD5A000E0D512 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00674A0D26FDD5A000E0D512 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		007C33D826FDCCAE0065DA99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08647C50F704588D418BB60 /* Pods-CHKLineChartKit-Demo-ObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/CHKLineChartKit-Demo-ObjC/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hansen.CHKLineChartKit-Demo-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CHKLineChartKit-Demo-ObjC/ExampleObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		007C33D926FDCCAE0065DA99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C31B0B6F14A8B0E5B66F26 /* Pods-CHKLineChartKit-Demo-ObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/CHKLineChartKit-Demo-ObjC/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hansen.CHKLineChartKit-Demo-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CHKLineChartKit-Demo-ObjC/ExampleObjC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		C5DAC42A2044F25500D16B84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -563,7 +725,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -614,7 +776,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -624,16 +786,17 @@
 		};
 		C5DAC42D2044F25500D16B84 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B442F95CFE9EA0B2B1C0BE5 /* Pods-Example.debug.xcconfig */;
+			baseConfigurationReference = 61878B6EA03A66164FDF76E2 /* Pods-CHKLineChartKit-Demo-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CHKLineChartKit-Demo-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.atall.app.chklinechart.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = Example/Example_bridging_Header.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CHKLineChartKit-Demo-Swift/Example_bridging_Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -641,59 +804,35 @@
 		};
 		C5DAC42E2044F25500D16B84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C5EB2820267D31519C777AE /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = 2F85D69EF8A40257E6C7CB71 /* Pods-CHKLineChartKit-Demo-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CHKLineChartKit-Demo-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.atall.app.chklinechart.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = Example/Example_bridging_Header.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CHKLineChartKit-Demo-Swift/Example_bridging_Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		C5DAC4302044F25500D16B84 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HE96WCSGPU;
-				INFOPLIST_FILE = ExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.atall.app.chklinechart.ExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
-			};
-			name = Debug;
-		};
-		C5DAC4312044F25500D16B84 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HE96WCSGPU;
-				INFOPLIST_FILE = ExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.atall.app.chklinechart.ExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C5DAC40A2044F25500D16B84 /* Build configuration list for PBXProject "Example" */ = {
+		007C33DA26FDCCAE0065DA99 /* Build configuration list for PBXNativeTarget "CHKLineChartKit-Demo-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				007C33D826FDCCAE0065DA99 /* Debug */,
+				007C33D926FDCCAE0065DA99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5DAC40A2044F25500D16B84 /* Build configuration list for PBXProject "CHKLineChartKit-Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5DAC42A2044F25500D16B84 /* Debug */,
@@ -702,20 +841,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5DAC42C2044F25500D16B84 /* Build configuration list for PBXNativeTarget "Example" */ = {
+		C5DAC42C2044F25500D16B84 /* Build configuration list for PBXNativeTarget "CHKLineChartKit-Demo-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5DAC42D2044F25500D16B84 /* Debug */,
 				C5DAC42E2044F25500D16B84 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C5DAC42F2044F25500D16B84 /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C5DAC4302044F25500D16B84 /* Debug */,
-				C5DAC4312044F25500D16B84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

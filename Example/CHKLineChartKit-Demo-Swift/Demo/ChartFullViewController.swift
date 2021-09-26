@@ -34,7 +34,8 @@ class ChartFullViewController: UIViewController {
         self.loadingView.startAnimating()
         self.loadingView.isHidden = false
         
-        ChartDatasFetcher.shared.getRemoteChartData(
+//        ChartDatasFetcher.shared.getRemoteChartData(  // 已废弃
+        ChartDatasFetcher.shared.getSinaRemoteChartData(
             symbol: symbol,
             timeType: type,
             size: 70) {

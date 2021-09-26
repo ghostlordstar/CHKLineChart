@@ -600,11 +600,11 @@ open class CHKLineChartView: UIView {
                 
                 self.showSelection = true
                 
-                self.bringSubviewToFront(self.verticalLineView!)
-                self.bringSubviewToFront(self.horizontalLineView!)
-                self.bringSubviewToFront(self.selectedXAxisLabel!)
-                self.bringSubviewToFront(self.selectedYAxisLabel!)
-                self.bringSubviewToFront(self.sightView!)
+                self.bringSubview(toFront: self.verticalLineView!)
+                self.bringSubview(toFront: self.horizontalLineView!)
+                self.bringSubview(toFront: self.selectedXAxisLabel!)
+                self.bringSubview(toFront: self.selectedYAxisLabel!)
+                self.bringSubview(toFront: self.sightView!)
                 
                 //设置选中点
                 self.setSelectedIndexByIndex(i)
@@ -1026,7 +1026,7 @@ extension CHKLineChartView {
             let xLabelText = CHTextLayer()
             xLabelText.frame = barLabelRect
             xLabelText.string = xLabel
-            xLabelText.alignmentMode = CATextLayerAlignmentMode.center
+            xLabelText.alignmentMode = kCAAlignmentCenter
             xLabelText.fontSize = self.labelFont.pointSize
             xLabelText.foregroundColor =  self.textColor.cgColor
             xLabelText.backgroundColor = UIColor.clear.cgColor
@@ -1242,16 +1242,16 @@ extension CHKLineChartView {
     /// - Parameter yAxisToDraw:
     fileprivate func drawYAxisLabel(_ yAxisToDraw: [(CGRect, String)]) {
         
-        var alignmentMode = CATextLayerAlignmentMode.left
+        var alignmentMode = kCAAlignmentLeft
         //分区中各个y轴虚线和y轴的label
         //控制y轴的label在左还是右显示
         switch self.showYAxisLabel {
         case .left:
-            alignmentMode = self.isInnerYAxis ? CATextLayerAlignmentMode.left : CATextLayerAlignmentMode.right
+            alignmentMode = self.isInnerYAxis ? kCAAlignmentLeft : kCAAlignmentRight
         case .right:
-            alignmentMode = self.isInnerYAxis ? CATextLayerAlignmentMode.right : CATextLayerAlignmentMode.left
+            alignmentMode = self.isInnerYAxis ? kCAAlignmentRight : kCAAlignmentLeft
         case .none:
-            alignmentMode = CATextLayerAlignmentMode.left
+            alignmentMode = kCAAlignmentLeft
         }
         
         for (yLabelRect, strValue) in yAxisToDraw {

@@ -10,7 +10,7 @@ import UIKit
 import SwiftyJSON
 
 class KlineChartData: NSObject, Codable {
-
+    
     var time: Int = 0
     var lowPrice: Double = 0
     var highPrice: Double = 0
@@ -40,6 +40,38 @@ class KlineChartData: NSObject, Codable {
             self.amplitudeRatio = self.amplitude / self.openPrice * 100
         }
         
+    }
+    
+    convenience init(sinaMinData: JSON) {
+        self.init()
+        self.time = Int(Date.getTimeStampByStamp(timeString: sinaMinData["d"].string ?? "", format: "yyyy-MM-dd hh:mm:ss"))
+        self.highPrice = sinaMinData["h"].doubleValue
+        self.lowPrice = sinaMinData["l"].doubleValue
+        self.openPrice = sinaMinData["o"].doubleValue
+        self.closePrice = sinaMinData["c"].doubleValue
+        self.vol = sinaMinData["v"].doubleValue
+        
+        if self.openPrice > 0 {
+            self.amplitude = self.closePrice - self.openPrice
+            self.amplitudeRatio = self.amplitude / self.openPrice * 100
+        }
+    }
+    
+    convenience init(sinaDayData: [String]?) {
+        self.init()
+        if sinaDayData != nil && sinaDayData!.count >= 6 {
+            self.time = Int(Date.getTimeStampByStamp(timeString: sinaDayData![0], format: "yyyy-MM-dd hh:mm:ss"))
+            self.highPrice = Double(sinaDayData![2]) ?? 0
+            self.lowPrice = Double(sinaDayData![3]) ?? 0
+            self.openPrice = Double(sinaDayData![1]) ?? 0
+            self.closePrice = Double(sinaDayData![4]) ?? 0
+            self.vol = Double(sinaDayData![5]) ?? 0
+        }
+        
+        if self.openPrice > 0 {
+            self.amplitude = self.closePrice - self.openPrice
+            self.amplitudeRatio = self.amplitude / self.openPrice * 100
+        }
     }
     
 }

@@ -16,38 +16,39 @@ class ChartInTableViewController: UIViewController {
     //选择时间
     let times: [String] = [
         "5min", "15min", "1hour", "1day",
-        ]
+    ]
     
     //选择交易对
     let exPairs: [String] = [
         "BTC-USD", "ETH-USD", "LTC-USD",
-        "LTC-BTC", "ETH-BTC", "BCH-BTC",
-        ]
+//        "LTC-BTC", "ETH-BTC", "BCH-BTC",
+    ]
     
     var klineDatas = [String : [KlineChartData]]()
     var selectTimeIndex: [Int] = [0, 0, 0, 0, 0, 0]         //各币种选择的时段
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         for pair in self.exPairs {
             self.fetchChartDatas(symbol: pair, type: times[0])
         }
     }
-
+    
     /// 拉取数据
     func fetchChartDatas(symbol: String, type: String) {
-        ChartDatasFetcher.shared.getRemoteChartData(
+        //        ChartDatasFetcher.shared.getRemoteChartData(  // 已废弃
+        ChartDatasFetcher.shared.getSinaRemoteChartData(
             symbol: symbol,
             timeType: type,
             size: 70) {
-                [weak self](flag, chartsData) in
-                if flag && chartsData.count > 0 {
-                    self?.klineDatas[symbol] = chartsData
-                    let row = self?.exPairs.index(of: symbol)
-                    self?.tableView.reloadRows(at: [IndexPath(row: row!, section: 0)],
-                                              with: UITableViewRowAnimation.automatic)
-                    
-                }
+            [weak self](flag, chartsData) in
+            if flag && chartsData.count > 0 {
+                self?.klineDatas[symbol] = chartsData
+                let row = self?.exPairs.index(of: symbol)
+                self?.tableView.reloadRows(at: [IndexPath(row: row!, section: 0)],
+                                           with: UITableViewRowAnimation.automatic)
+                
+            }
         }
     }    
 }
@@ -81,12 +82,12 @@ extension ChartInTableViewController: UITableViewDelegate, UITableViewDataSource
         
         cell.updateTime = {
             [unowned self](index) -> Void in
-             self.selectTimeIndex[indexPath.row] = index
+            self.selectTimeIndex[indexPath.row] = index
             let time = self.times[index]
             self.fetchChartDatas(symbol: currencyType, type: time)
             cell.loadingView.isHidden = false
             cell.loadingView.startAnimating()
-
+            
         }
         
         return cell

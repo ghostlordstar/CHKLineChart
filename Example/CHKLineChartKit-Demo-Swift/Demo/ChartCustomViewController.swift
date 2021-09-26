@@ -16,7 +16,7 @@ class ChartCustomViewController: UIViewController {
     
     //选择时间
     let times: [String] = [
-        "5min", "15min", "1hour", "6hour","1day",
+        "5min", "15min", "1hour","1day",
     ]
 
     /// 主图线段
@@ -37,7 +37,7 @@ class ChartCustomViewController: UIViewController {
     //选择交易对
     let exPairs: [String] = [
         "BTC-USD", "ETH-USD", "LTC-USD",
-        "LTC-BTC", "ETH-BTC", "BCH-BTC",
+//        "LTC-BTC", "ETH-BTC", "BCH-BTC",
         ]
     
     /// 已选周期
@@ -216,7 +216,8 @@ extension ChartCustomViewController {
         self.loadingView.startAnimating()
         self.loadingView.isHidden = false
         let symbol = self.exPairs[self.selectedSymbol]
-        ChartDatasFetcher.shared.getRemoteChartData(
+//        ChartDatasFetcher.shared.getRemoteChartData(  // 已废弃
+        ChartDatasFetcher.shared.getSinaRemoteChartData(
             symbol: symbol,
             timeType: self.times[self.selectedTime],
             size: 1000) {
@@ -253,7 +254,11 @@ extension ChartCustomViewController {
         }
         
         self.topView.snp.makeConstraints { (make) in
-            make.top.equalTo(self.view.safeAreaLayoutGuide.snp.top).offset(4)
+            if #available(iOS 11.0, *) {
+                make.top.equalTo(self.view.safeAreaLayoutGuide.snp.top).offset(4)
+            } else {
+                make.top.equalTo(self.view.snp.top).offset(4)
+            }
             make.bottom.equalTo(self.chartView.snp.top).offset(-4)
             make.left.right.equalToSuperview().inset(8)
             make.height.equalTo(60)
@@ -267,7 +272,11 @@ extension ChartCustomViewController {
         self.toolbar.snp.makeConstraints { (make) in
             make.top.equalTo(self.chartView.snp.bottom)
             make.left.right.equalToSuperview()
-            make.bottom.equalTo(self.view.safeAreaLayoutGuide.snp.bottom)
+            if #available(iOS 11.0, *) {
+                make.bottom.equalTo(self.view.safeAreaLayoutGuide.snp.bottom)
+            } else {
+                make.bottom.equalTo(self.view.snp.bottom)
+            }
             make.height.equalTo(44)
         }
         

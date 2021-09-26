@@ -31,6 +31,29 @@ extension Date {
     }
     
     /*!
+     * @method 把格式时间转换成时间戳
+     * @abstract
+     * @discussion
+     * @param   timeString    格式时间
+     * @param   format        格式
+     * @result                时间戳
+     */
+    static func getTimeStampByStamp(timeString: String, format: String) -> TimeInterval {
+        var timestamp = 0.0
+        if (timeString.isEmpty == true) {
+            return 0.0
+        }
+
+        let formatter = DateFormatter()
+        formatter.dateFormat = format        
+        if let date = formatter.date(from: timeString) {
+            timestamp = date.timeIntervalSince1970
+        }
+        return timestamp;
+    }
+    
+    
+    /*!
      * @method 返回2分钟前、2小时前、2天前、2月前、2年前等近似的时间表示
      * @abstract
      * @discussion

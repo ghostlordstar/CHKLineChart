@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/b612/Desktop/CHKLineChart/CHKLineChartKit.xcodeproj">
+      location = "group:Example/CHKLineChartKit-Demo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:CHKLineChartKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Example/Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
