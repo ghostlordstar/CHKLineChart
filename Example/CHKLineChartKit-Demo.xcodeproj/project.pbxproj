@@ -41,8 +41,6 @@
 		002B369E26FC7DE7006D7877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002B367926FC7DE7006D7877 /* LaunchScreen.storyboard */; };
 		002B369F26FC7DE7006D7877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002B367B26FC7DE7006D7877 /* Main.storyboard */; };
 		002B36A026FC7DE7006D7877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B367D26FC7DE7006D7877 /* AppDelegate.swift */; };
-		00674A0126FDD15B00E0D512 /* CHKLineChartKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00674A0026FDD15B00E0D512 /* CHKLineChartKit.framework */; };
-		00674A0226FDD15B00E0D512 /* CHKLineChartKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00674A0026FDD15B00E0D512 /* CHKLineChartKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		00674A1426FDD5A000E0D512 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00674A0426FDD59F00E0D512 /* ViewController.m */; };
 		00674A1526FDD5A000E0D512 /* KlineInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 00674A0526FDD59F00E0D512 /* KlineInfo.m */; };
 		00674A1626FDD5A000E0D512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00674A0926FDD5A000E0D512 /* Assets.xcassets */; };
@@ -53,6 +51,8 @@
 		00674A1C26FDD5A000E0D512 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00674A1326FDD5A000E0D512 /* AppDelegate.m */; };
 		00674A1E26FDD78000E0D512 /* CHKLineChartKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00674A1D26FDD78000E0D512 /* CHKLineChartKit.framework */; };
 		00674A1F26FDD78000E0D512 /* CHKLineChartKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00674A1D26FDD78000E0D512 /* CHKLineChartKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		00F98E852702EBE100D8D841 /* CHKLineChartKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F98E842702EBE100D8D841 /* CHKLineChartKit.framework */; };
+		00F98E862702EBE100D8D841 /* CHKLineChartKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00F98E842702EBE100D8D841 /* CHKLineChartKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3F13FD5DAE38B2DD9732942B /* Pods_CHKLineChartKit_Demo_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B096E6F9AFAD7A4BBDCFD3E0 /* Pods_CHKLineChartKit_Demo_Swift.framework */; };
 		D0792238378FF79B346DDBC0 /* Pods_CHKLineChartKit_Demo_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEED639C398FCE5D9EE3BD93 /* Pods_CHKLineChartKit_Demo_ObjC.framework */; };
 /* End PBXBuildFile section */
@@ -69,13 +69,13 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5AF869C2053C3A9000C7F14 /* Embed Frameworks */ = {
+		00F98E872702EBE100D8D841 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				00674A0226FDD15B00E0D512 /* CHKLineChartKit.framework in Embed Frameworks */,
+				00F98E862702EBE100D8D841 /* CHKLineChartKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +135,7 @@
 		00674A1326FDD5A000E0D512 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		00674A1D26FDD78000E0D512 /* CHKLineChartKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHKLineChartKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		007C33C226FDCCAD0065DA99 /* CHKLineChartKit-Demo-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CHKLineChartKit-Demo-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F98E842702EBE100D8D841 /* CHKLineChartKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHKLineChartKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F85D69EF8A40257E6C7CB71 /* Pods-CHKLineChartKit-Demo-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHKLineChartKit-Demo-Swift.release.xcconfig"; path = "Target Support Files/Pods-CHKLineChartKit-Demo-Swift/Pods-CHKLineChartKit-Demo-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		61878B6EA03A66164FDF76E2 /* Pods-CHKLineChartKit-Demo-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHKLineChartKit-Demo-Swift.debug.xcconfig"; path = "Target Support Files/Pods-CHKLineChartKit-Demo-Swift/Pods-CHKLineChartKit-Demo-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		AEED639C398FCE5D9EE3BD93 /* Pods_CHKLineChartKit_Demo_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHKLineChartKit_Demo_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,7 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F13FD5DAE38B2DD9732942B /* Pods_CHKLineChartKit_Demo_Swift.framework in Frameworks */,
-				00674A0126FDD15B00E0D512 /* CHKLineChartKit.framework in Frameworks */,
+				00F98E852702EBE100D8D841 /* CHKLineChartKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +289,7 @@
 		1141BAD1968DAACEFA80F472 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00F98E842702EBE100D8D841 /* CHKLineChartKit.framework */,
 				00674A1D26FDD78000E0D512 /* CHKLineChartKit.framework */,
 				00674A0026FDD15B00E0D512 /* CHKLineChartKit.framework */,
 				B096E6F9AFAD7A4BBDCFD3E0 /* Pods_CHKLineChartKit_Demo_Swift.framework */,
@@ -359,7 +361,7 @@
 				C5DAC40C2044F25500D16B84 /* Frameworks */,
 				C5DAC40D2044F25500D16B84 /* Resources */,
 				ABE71615878980D4C63F2A39 /* [CP] Embed Pods Frameworks */,
-				C5AF869C2053C3A9000C7F14 /* Embed Frameworks */,
+				00F98E872702EBE100D8D841 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

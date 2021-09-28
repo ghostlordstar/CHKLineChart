@@ -1,4 +1,4 @@
-
+// swift-tools-version:5.5.0
 import PackageDescription
 
 let package = Package(
@@ -12,5 +12,7 @@ let package = Package(
         .target(
             name: "CHKLineChartKit",
             path: "Sources"
-    ]
+            )
+    ],
+    swiftLanguageVersions: [.v4]
 )
