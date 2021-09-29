@@ -37,7 +37,6 @@
 		00FC359926FC794600A24ABA /* CHDynamicItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHDynamicItem.swift; sourceTree = "<group>"; };
 		00FC359A26FC794600A24ABA /* CHChartAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHChartAlgorithm.swift; sourceTree = "<group>"; };
 		00FC359B26FC794600A24ABA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26A04E5DC2417C7350CB690A /* Pods_CHKLineChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHKLineChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F59ED01FA883DF00AD85A2 /* CHKLineChartKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHKLineChartKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,21 +71,12 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		9BDF4CB112CA55CB5D3CFEC4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				26A04E5DC2417C7350CB690A /* Pods_CHKLineChart.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C5E4E04E1D76CC7E00C47F5A = {
 			isa = PBXGroup;
 			children = (
 				00FC359B26FC794600A24ABA /* Info.plist */,
 				00FC358D26FC794600A24ABA /* Sources */,
 				C5E4E0581D76CC7E00C47F5A /* Products */,
-				9BDF4CB112CA55CB5D3CFEC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

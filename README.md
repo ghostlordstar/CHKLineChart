@@ -32,6 +32,10 @@
 
 ## Installation
 
+### Swift Package Manager
+File > Swift Packages > Add Package Dependency
+Add `https://github.com/ghostlordstar/CHKLineChart.git`
+Dependency Rule > Branch > `main`
 ### CocoaPods
 
 [CocoaPods](http://cocoapods.org/) is a dependency manager for Cocoa projects.
@@ -50,10 +54,12 @@ use_frameworks!
 pod 'CHKLineChartKit'
 ```
 
-### Manual
-
-打开文件夹/CHKLineChart/Carthage/Build/iOS/，复制CHKLineChartKit.framework到你的项目文件夹中。在Project -> Target -> General -> Embedded Binaries，点+，导入CHKLineChartKit.framework。
-
+### Carthage
+edit your `Cartfile`
+```swift
+github "ghostlordstar/CHKLineChart"
+```
+then run command `carthage update --platform iOS`
 ## Example
 
 详细例子，打开Example/Example.xcworkspace，参考ChartCustomViewController的例子。

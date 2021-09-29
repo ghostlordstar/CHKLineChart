@@ -865,7 +865,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ghostlordstar/CHKLineChart";
 			requirement = {
-				branch = swift_4.2;
+				branch = main;
 				kind = branch;
 			};
 		};
