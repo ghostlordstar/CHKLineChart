@@ -802,7 +802,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.atall.app.chklinechart.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CHKLineChartKit-Demo-Swift/Example_bridging_Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -823,7 +823,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.atall.app.chklinechart.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CHKLineChartKit-Demo-Swift/Example_bridging_Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
