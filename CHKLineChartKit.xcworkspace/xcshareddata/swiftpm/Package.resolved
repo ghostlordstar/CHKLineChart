@@ -5,8 +5,8 @@
         "package": "CHKLineChartKit",
         "repositoryURL": "https://github.com/ghostlordstar/CHKLineChart",
         "state": {
-          "branch": "main",
-          "revision": "cbb0c813498238512dd8f889faaddc46d4ceedd3",
+          "branch": "swift_4.0",
+          "revision": "0ff2ea959811aa30ded7bad3ac22c9b1347b9829",
           "version": null
         }
       }
