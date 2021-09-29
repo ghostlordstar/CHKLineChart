@@ -6,7 +6,7 @@ let package = Package(
 
     platforms: [.iOS(.v9)],
     products: [
-        .executable(name: "CHKLineChartKit", targets: ["CHKLineChartKit"]),
+        .library(name: "CHKLineChartKit", type: .static, targets: ["CHKLineChartKit"]),
     ],
     targets: [
         .target(
