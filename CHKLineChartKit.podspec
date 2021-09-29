@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CHKLineChartKit'
-  s.version          = '2.3.2'
-  s.summary          = 'KLine Chart Kit by Swift4.0.| 纯Swift4.0代码编写的K线图表组件.'
+  s.version          = '2.4.0'
+  s.summary          = 'KLine Chart Kit by Swift4.2.| 纯Swift代码编写的K线图表组件.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,12 +30,10 @@ Pod::Spec.new do |s|
   
   s.platform     = :ios, "9.0"
   s.ios.deployment_target = '9.0'
-  s.swift_version = "4.0"
+  s.swift_version = "4.2"
   
   s.source_files = 'CHKLineChart/Classes/**/*'
   s.requires_arc = true
 end
 
-# 1. 最低支持版本修改为 iOS9.0
-# 2. 更新截图
-# 3. 添加swift支持版本 4.0
+# 1. 添加swift支持版本 4.2
