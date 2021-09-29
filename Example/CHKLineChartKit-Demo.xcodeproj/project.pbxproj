@@ -41,7 +41,7 @@
 		002B369E26FC7DE7006D7877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002B367926FC7DE7006D7877 /* LaunchScreen.storyboard */; };
 		002B369F26FC7DE7006D7877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002B367B26FC7DE7006D7877 /* Main.storyboard */; };
 		002B36A026FC7DE7006D7877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B367D26FC7DE7006D7877 /* AppDelegate.swift */; };
-		005C7B7327043EA90026D407 /* CHKLineChartKit in Frameworks */ = {isa = PBXBuildFile; productRef = 005C7B7227043EA90026D407 /* CHKLineChartKit */; };
+		005C7B76270443550026D407 /* CHKLineChartKit in Frameworks */ = {isa = PBXBuildFile; productRef = 005C7B75270443550026D407 /* CHKLineChartKit */; };
 		00674A1426FDD5A000E0D512 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00674A0426FDD59F00E0D512 /* ViewController.m */; };
 		00674A1526FDD5A000E0D512 /* KlineInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 00674A0526FDD59F00E0D512 /* KlineInfo.m */; };
 		00674A1626FDD5A000E0D512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00674A0926FDD5A000E0D512 /* Assets.xcassets */; };
@@ -148,7 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F13FD5DAE38B2DD9732942B /* Pods_CHKLineChartKit_Demo_Swift.framework in Frameworks */,
-				005C7B7327043EA90026D407 /* CHKLineChartKit in Frameworks */,
+				005C7B76270443550026D407 /* CHKLineChartKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +356,7 @@
 			);
 			name = "CHKLineChartKit-Demo-Swift";
 			packageProductDependencies = (
-				005C7B7227043EA90026D407 /* CHKLineChartKit */,
+				005C7B75270443550026D407 /* CHKLineChartKit */,
 			);
 			productName = Example;
 			productReference = C5DAC40F2044F25500D16B84 /* CHKLineChartKit-Demo-Swift.app */;
@@ -393,7 +393,7 @@
 			);
 			mainGroup = C5DAC4062044F25500D16B84;
 			packageReferences = (
-				005C7B7127043EA90026D407 /* XCRemoteSwiftPackageReference "CHKLineChart" */,
+				005C7B74270443550026D407 /* XCRemoteSwiftPackageReference "CHKLineChart" */,
 			);
 			productRefGroup = C5DAC4102044F25500D16B84 /* Products */;
 			projectDirPath = "";
@@ -861,20 +861,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		005C7B7127043EA90026D407 /* XCRemoteSwiftPackageReference "CHKLineChart" */ = {
+		005C7B74270443550026D407 /* XCRemoteSwiftPackageReference "CHKLineChart" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ghostlordstar/CHKLineChart";
 			requirement = {
-				branch = main;
+				branch = swift_4.2;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		005C7B7227043EA90026D407 /* CHKLineChartKit */ = {
+		005C7B75270443550026D407 /* CHKLineChartKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 005C7B7127043EA90026D407 /* XCRemoteSwiftPackageReference "CHKLineChart" */;
+			package = 005C7B74270443550026D407 /* XCRemoteSwiftPackageReference "CHKLineChart" */;
 			productName = CHKLineChartKit;
 		};
 /* End XCSwiftPackageProductDependency section */
