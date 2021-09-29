@@ -68,7 +68,6 @@
 				00FC359826FC794600A24ABA /* CHShapeLayer.swift */,
 				00FC359926FC794600A24ABA /* CHDynamicItem.swift */,
 				00FC359A26FC794600A24ABA /* CHChartAlgorithm.swift */,
-				00FC359B26FC794600A24ABA /* Info.plist */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -84,6 +83,7 @@
 		C5E4E04E1D76CC7E00C47F5A = {
 			isa = PBXGroup;
 			children = (
+				00FC359B26FC794600A24ABA /* Info.plist */,
 				00FC358D26FC794600A24ABA /* Sources */,
 				C5E4E0581D76CC7E00C47F5A /* Products */,
 				9BDF4CB112CA55CB5D3CFEC4 /* Frameworks */,
@@ -325,7 +325,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -366,7 +366,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
