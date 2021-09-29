@@ -410,7 +410,7 @@ extension CHSection {
             
         }
         
-        mainView.bringSubview(toFront: self.titleView!)
+        mainView.bringSubviewToFront(self.titleView!)
         
     }
     
