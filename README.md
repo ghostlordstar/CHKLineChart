@@ -7,7 +7,7 @@
 ![s2.png](/screenshots/s2.png)![s3.png](/screenshots/s3.png)
 ![s4.png](/screenshots/s4.png)![s5.png](/screenshots/s5.png)
 
-> 纯Swift4.0代码编写的K线图表组件，支持：MA,EMA,KDJ,MACD,RSI等技术指标显示。集成使用简单，二次开发扩展强大。
+> 纯Swift4.2代码编写的K线图表组件，支持：MA,EMA,KDJ,MACD,RSI等技术指标显示。集成使用简单，二次开发扩展强大。
 
 |版本号|iOS版本|Swift版本|
 |----|----|----|
@@ -26,9 +26,9 @@
 
 ## Requirements
 
-- iOS 8+
-- Xcode 8+
-- Swift 4.0+
+- iOS 9.0+
+- Xcode 8.0+
+- Swift 4.2+
 - iPhone/iPad
 
 ## Installation
