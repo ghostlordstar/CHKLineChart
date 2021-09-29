@@ -6,7 +6,7 @@
 //  Copyright © 2018年 Chance. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import CHKLineChartKit
 
 class SeriesParamControl: NSObject, Codable {

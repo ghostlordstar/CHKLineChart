@@ -1,10 +1,9 @@
-// swift-tools-version:5.5.0
+// swift-tools-version:4.0
 import PackageDescription
 
 let package = Package(
     name: "CHKLineChartKit",
 
-    platforms: [.iOS(.v9)],
     products: [
         .library(name: "CHKLineChartKit", type: .static, targets: ["CHKLineChartKit"]),
     ],
@@ -14,5 +13,5 @@ let package = Package(
             path: "Sources"
             )
     ],
-    swiftLanguageVersions: [.v4]
+    swiftLanguageVersions: [4]
 )

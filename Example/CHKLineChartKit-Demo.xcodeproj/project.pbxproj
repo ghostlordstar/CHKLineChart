@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -41,6 +41,7 @@
 		002B369E26FC7DE7006D7877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002B367926FC7DE7006D7877 /* LaunchScreen.storyboard */; };
 		002B369F26FC7DE7006D7877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002B367B26FC7DE7006D7877 /* Main.storyboard */; };
 		002B36A026FC7DE7006D7877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B367D26FC7DE7006D7877 /* AppDelegate.swift */; };
+		005C7B6D2704207F0026D407 /* CHKLineChartKit in Frameworks */ = {isa = PBXBuildFile; productRef = 005C7B6C2704207F0026D407 /* CHKLineChartKit */; };
 		00674A1426FDD5A000E0D512 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00674A0426FDD59F00E0D512 /* ViewController.m */; };
 		00674A1526FDD5A000E0D512 /* KlineInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 00674A0526FDD59F00E0D512 /* KlineInfo.m */; };
 		00674A1626FDD5A000E0D512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00674A0926FDD5A000E0D512 /* Assets.xcassets */; };
@@ -147,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F13FD5DAE38B2DD9732942B /* Pods_CHKLineChartKit_Demo_Swift.framework in Frameworks */,
+				005C7B6D2704207F0026D407 /* CHKLineChartKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +355,9 @@
 			dependencies = (
 			);
 			name = "CHKLineChartKit-Demo-Swift";
+			packageProductDependencies = (
+				005C7B6C2704207F0026D407 /* CHKLineChartKit */,
+			);
 			productName = Example;
 			productReference = C5DAC40F2044F25500D16B84 /* CHKLineChartKit-Demo-Swift.app */;
 			productType = "com.apple.product-type.application";
@@ -388,6 +393,7 @@
 			);
 			mainGroup = C5DAC4062044F25500D16B84;
 			packageReferences = (
+				005C7B6B2704207F0026D407 /* XCRemoteSwiftPackageReference "CHKLineChart" */,
 			);
 			productRefGroup = C5DAC4102044F25500D16B84 /* Products */;
 			projectDirPath = "";
@@ -618,7 +624,10 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -654,7 +663,10 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "Hansen.CHKLineChartKit-Demo-ObjC";
@@ -768,7 +780,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -782,7 +795,10 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/CHKLineChartKit-Demo-Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.atall.app.chklinechart.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CHKLineChartKit-Demo-Swift/Example_bridging_Header.h";
@@ -800,7 +816,10 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/CHKLineChartKit-Demo-Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.atall.app.chklinechart.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CHKLineChartKit-Demo-Swift/Example_bridging_Header.h";
@@ -840,6 +859,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		005C7B6B2704207F0026D407 /* XCRemoteSwiftPackageReference "CHKLineChart" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ghostlordstar/CHKLineChart";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		005C7B6C2704207F0026D407 /* CHKLineChartKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 005C7B6B2704207F0026D407 /* XCRemoteSwiftPackageReference "CHKLineChart" */;
+			productName = CHKLineChartKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C5DAC4072044F25500D16B84 /* Project object */;
 }

@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CHKLineChartKit",
+        "repositoryURL": "https://github.com/ghostlordstar/CHKLineChart",
+        "state": {
+          "branch": "main",
+          "revision": "210618320049b0ab4043276667966709354d7492",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
