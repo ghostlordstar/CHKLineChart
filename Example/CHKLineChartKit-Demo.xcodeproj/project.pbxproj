@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -51,8 +51,6 @@
 		00674A1C26FDD5A000E0D512 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00674A1326FDD5A000E0D512 /* AppDelegate.m */; };
 		00674A1E26FDD78000E0D512 /* CHKLineChartKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00674A1D26FDD78000E0D512 /* CHKLineChartKit.framework */; };
 		00674A1F26FDD78000E0D512 /* CHKLineChartKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00674A1D26FDD78000E0D512 /* CHKLineChartKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		00F98E852702EBE100D8D841 /* CHKLineChartKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F98E842702EBE100D8D841 /* CHKLineChartKit.framework */; };
-		00F98E862702EBE100D8D841 /* CHKLineChartKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00F98E842702EBE100D8D841 /* CHKLineChartKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3F13FD5DAE38B2DD9732942B /* Pods_CHKLineChartKit_Demo_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B096E6F9AFAD7A4BBDCFD3E0 /* Pods_CHKLineChartKit_Demo_Swift.framework */; };
 		D0792238378FF79B346DDBC0 /* Pods_CHKLineChartKit_Demo_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEED639C398FCE5D9EE3BD93 /* Pods_CHKLineChartKit_Demo_ObjC.framework */; };
 /* End PBXBuildFile section */
@@ -65,17 +63,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				00674A1F26FDD78000E0D512 /* CHKLineChartKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		00F98E872702EBE100D8D841 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				00F98E862702EBE100D8D841 /* CHKLineChartKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,7 +147,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F13FD5DAE38B2DD9732942B /* Pods_CHKLineChartKit_Demo_Swift.framework in Frameworks */,
-				00F98E852702EBE100D8D841 /* CHKLineChartKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +347,6 @@
 				C5DAC40C2044F25500D16B84 /* Frameworks */,
 				C5DAC40D2044F25500D16B84 /* Resources */,
 				ABE71615878980D4C63F2A39 /* [CP] Embed Pods Frameworks */,
-				00F98E872702EBE100D8D841 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -402,6 +387,9 @@
 				Base,
 			);
 			mainGroup = C5DAC4062044F25500D16B84;
+			packageReferences = (
+				005C7B6A2704070C0026D407 /* XCRemoteSwiftPackageReference "CHKLineChart" */,
+			);
 			productRefGroup = C5DAC4102044F25500D16B84 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -631,7 +619,10 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -667,7 +658,10 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "Hansen.CHKLineChartKit-Demo-ObjC";
@@ -781,7 +775,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -795,7 +790,10 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/CHKLineChartKit-Demo-Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.atall.app.chklinechart.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CHKLineChartKit-Demo-Swift/Example_bridging_Header.h";
@@ -813,7 +811,10 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/CHKLineChartKit-Demo-Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.atall.app.chklinechart.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CHKLineChartKit-Demo-Swift/Example_bridging_Header.h";
@@ -853,6 +854,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		005C7B6A2704070C0026D407 /* XCRemoteSwiftPackageReference "CHKLineChart" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ghostlordstar/CHKLineChart";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = C5DAC4072044F25500D16B84 /* Project object */;
 }
